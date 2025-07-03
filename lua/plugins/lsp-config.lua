@@ -35,6 +35,10 @@ return {
         capabilities = capabilities
       })
 
+      lspconfig.bashls.setup({
+        capabilities = capabilities
+      })
+
       vim.diagnostic.config({
         virtual_text = true,
         signs = false,
