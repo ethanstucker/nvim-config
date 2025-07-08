@@ -37,9 +37,10 @@ NVM
 ```
 ## Screenshots
 
-![NeoVim Home Screen](https://drive.google.com/file/d/1Vehw3Vn2ZTAPgU6k3y-Jqj694L8v4YAx/view?usp=sharing)
+![NeoVim Home Screen](https://drive.google.com/uc?id=1Vehw3Vn2ZTAPgU6k3y-Jqj694L8v4YAx)
 
-![Fuzzy Find](https://drive.google.com/file/d/1FWyHf2tbuSaMZEKXq2pSf8r3wvD578Rt/view?usp=drive_link)
+![Fuzzy Find](https://drive.google.com/uc?id=1FWyHf2tbuSaMZEKXq2pSf8r3wvD578Rt)
 
-![Syntax Highlighting 1](https://drive.google.com/file/d/1j9oR111wIUweJkr4hoqwqCYKGuNsZWge/view?usp=sharing)
-![Syntax Highlighting 2](https://drive.google.com/file/d/1ReyL5mi3KY3ggqD0AmCE_keejKWFjcKi/view?usp=sharing)
+![Syntax Highlighting 1](https://drive.google.com/uc?id=1j9oR111wIUweJkr4hoqwqCYKGuNsZWge)
+
+![Syntax Highlighting 2](https://drive.google.com/uc?id=1ReyL5mi3KY3ggqD0AmCE_keejKWFjcKi)
