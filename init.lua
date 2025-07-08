@@ -13,9 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.o.number = true
 
-vim.keymap.set('n', '<leader>q', ':q<CR>', { desc = "Close window"})
+vim.keymap.set("n", "<leader>q", ":q<CR>", { desc = "Close window" })
 
 require("vim-options")
 require("lazy").setup("plugins")
-
-
