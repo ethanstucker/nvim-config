@@ -1,0 +1,16 @@
+Packages needed for lsp to fully install:
+- Unzip
+- Cargo
+- Luarocks
+- Ruby
+- Rubygem
+- Composer
+- PHP
+- Julia
+- Python-pip
+- Python
+- Go
+- jdk
+- NPM
+- Nodejs
+- NVM
