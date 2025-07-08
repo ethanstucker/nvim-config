@@ -12,7 +12,7 @@ You can easily install my setup by cloning this repo into your ~/.config/nvim di
   rm -r ~/.config/nvim (if needed)
   git clone https://github.com/ethanstucker/nvim-config ~/.config/nvim
 ```
-Thats it! You can now juse ```nvim``` to download all the plugins and load everything needed.
+Thats it! You can now use ```nvim``` to download all the plugins and load everything needed.
 
 ## LSPs
 
@@ -35,3 +35,11 @@ NPM
 Nodejs
 NVM
 ```
+## Screenshots
+
+![NeoVim Home Screen](https://drive.google.com/file/d/1Vehw3Vn2ZTAPgU6k3y-Jqj694L8v4YAx/view?usp=sharing)
+
+![Fuzzy Find](https://drive.google.com/file/d/1FWyHf2tbuSaMZEKXq2pSf8r3wvD578Rt/view?usp=sharing)
+
+![Syntax Highlighting 1](https://drive.google.com/file/d/1j9oR111wIUweJkr4hoqwqCYKGuNsZWge/view?usp=sharing)
+![Syntax Highlighting 2](https://drive.google.com/file/d/1ReyL5mi3KY3ggqD0AmCE_keejKWFjcKi/view?usp=sharing)
