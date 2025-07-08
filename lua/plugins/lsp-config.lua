@@ -34,8 +34,10 @@ return {
       lspconfig.ts_ls.setup({
         capabilities = capabilities
       })
-
       lspconfig.bashls.setup({
+        capabilities = capabilities
+      })
+      lspconfig.ast_grep.setup({
         capabilities = capabilities
       })
 
@@ -47,9 +49,9 @@ return {
         severity_sort = true
       })
 
-      vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, { desc = "Code Actions"})
-      vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Definitions"})
-      vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = "Hover definition"})
+      vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, { desc = "Code Actions" })
+      vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = "Definitions" })
+      vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = "Hover definition" })
     end
   }
 }

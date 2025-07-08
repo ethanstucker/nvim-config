@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.o.number = true
 
+
 require("vim-options")
 require("lazy").setup("plugins")
 
