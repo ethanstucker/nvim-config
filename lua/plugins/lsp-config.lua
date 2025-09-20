@@ -24,6 +24,7 @@ return {
                     "bashls",
                     "astro",
                     "clangd",
+                    "ruff",
                 },
                 handlers = {
                     -- The default handler for all servers

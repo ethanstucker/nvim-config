@@ -8,7 +8,7 @@ return {
 		"L3MON4D3/LuaSnip",
 		"saadparwaiz1/cmp_luasnip",
 		"rafamadriz/friendly-snippets", -- A good collection of snippets
-        "zbirenbaum/copilot-cmp",
+		"zbirenbaum/copilot-cmp",
 	},
 	config = function()
 		local cmp = require("cmp")
@@ -36,7 +36,10 @@ return {
 				["<C-e>"] = cmp.mapping.abort(),
 				["<CR>"] = cmp.mapping.confirm({ select = true }), -- Press Enter to confirm selection
 				["<Tab>"] = cmp.mapping(function(fallback)
-					if cmp.visible() then
+					local copilot = require("copilot.suggestion")
+					if copilot.is_visible() then
+						copilot.accept()
+					elseif cmp.visible() then
 						cmp.select_next_item()
 					elseif luasnip.expand_or_jumpable() then
 						luasnip.expand_or_jump()
@@ -44,11 +47,10 @@ return {
 						fallback()
 					end
 				end, { "i", "s" }),
+
 				["<S-Tab>"] = cmp.mapping(function(fallback)
 					if cmp.visible() then
 						cmp.select_prev_item()
-					elseif luasnip.jumpable(-1) then
-						luasnip.jump(-1)
 					else
 						fallback()
 					end
@@ -60,7 +62,7 @@ return {
 				{ name = "luasnip" },
 				{ name = "buffer" },
 				{ name = "path" },
-                { name = "copilot" },
+				{ name = "copilot" },
 			}),
 		})
 	end,

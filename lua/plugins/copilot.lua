@@ -9,8 +9,8 @@ return {
           -- This is the setting that enables the ghost text
           auto_trigger = true,
           keymap = {
-            accept = "<C-l>", -- Use Ctrl+L to accept the suggestion
-            dismiss = "<C-h>", -- Use Ctrl+H to dismiss it
+            accept = "<Tab>", -- Use Ctrl+L to accept the suggestion
+            dismiss = "<C-]>", -- Use Ctrl+H to dismiss it
           },
         },
         panel = {
